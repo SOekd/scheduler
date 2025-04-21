@@ -25,7 +25,7 @@ public class Main {
         simple.run();
         simple.printTimeline();
 
-        System.out.println("\n--- Versão Otimizada ---");
+        System.out.println("\n--- Versao Otimizada ---");
         Scheduler opt = new OptimizedScheduler();
         opt.addTasks(list);
         opt.run();
